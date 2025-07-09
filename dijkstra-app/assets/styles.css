@@ -1,0 +1,51 @@
+/* assets/styles.css */
+
+/* Toàn bộ ứng dụng Dash dùng font nhỏ gọn hơn */
+body {
+    font-size: 11.5px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Tiêu đề */
+h2 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 14px;
+}
+h5 {
+    font-size: 13px;
+}
+
+/* Dropdown: giảm kích thước chữ */
+.Select-control,
+.Select-placeholder,
+.Select-value,
+.Select-menu-outer {
+    font-size: 11.5px !important;
+}
+
+/* Button */
+button {
+    font-size: 11.5px !important;
+    padding: 5px 8px;
+}
+
+/* Bảng Dash Table */
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td {
+    font-size: 13px !important;
+}
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner th {
+    font-size: 13px !important;
+}
+
+/* Slider marks */
+.rc-slider-mark-text {
+    font-size: 12px !important;
+}
+
+/* Markdown */
+#step-description {
+    font-size: 13px !important;
+    line-height: 1.4;
+}
